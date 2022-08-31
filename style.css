@@ -1,0 +1,34 @@
+body{
+    background-color: rgb(4, 0, 15);
+}
+#formulaire{
+    position: absolute;
+    left: 450px;
+    top: 150px;
+    padding-top: 60px;
+    padding-left: 80px;
+    background-color: rgb(10, 2, 38);
+    width: 530px;
+    height: 350px;
+    border-radius: 8px;
+    box-shadow:5px 5px white;
+}
+#formulaire h1{
+    
+    color:white
+}
+#formulaire input{
+    border-radius: 7px;
+    margin: 10px;
+    width: 400px;
+    height: 50px;
+}
+#formulaire input[type=submit]{
+    background-color: rgb(82, 79, 79);
+    color: white;
+    font-size: 20px;
+}
+#formulaire input[type=submit]:hover{
+        background-color: rgb(255, 255, 255);
+        color: rgb(0, 0, 0);
+}
