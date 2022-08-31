@@ -5,13 +5,13 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     
-    <link rel="stylesheet" href="Actualisation.css">
+    <link rel="stylesheet" href="profil-modif.css">
     
-    <title>Statistiques</title>
+    <title>Profil-modification</title>
 </head>
 <body>
     <div id="menuhaut">
-        <img src="assets/menu.png" alt="menu">
+        <img src="../assets/menu.png" alt="menu">
         <div>
             <img src="../assets/notification.png" alt="notification">
             <img src="../assets/notes.png" alt="notes">
@@ -31,27 +31,120 @@
         
     </div>
     <div id="title"> 
-        <h1>ACTUALISATION DU 22/08/2022 - 28/08/2022</h1>
+        <h1>MODIFIER COMPTE AGENT Fitia1</h1>
         
     </div>
     <div id="courbe">
-        <section id="s1">
+        <table class="modif" >
+            <tr>
+                <td>Nom </td>
+                <td> 
+                    <input type="text" name="Nmodif" value="Fitia">
+                </td>
+            </tr>
+            <tr>
+                <td>Prenom </td>
+                <td> 
+                    <input type="text" name="Pmodif" value="Fitia">
+                </td>
+            </tr>
+            <tr>
+                <td>Prenom </td>
+                <td> 
+                    <input type="date" name="Pmodif" value="">
+                </td>
+            </tr>
+            <tr>
+                <td>Sex </td>
+                <td> 
+                   <label > Homme</label> <input type="radio" name="S"value="homme" >
+                   <label>Femme</label>  <input type="radio" name="S" value="femme">
+                </td>
+            </tr>
+            <tr>
+                <td>Situation </td>
+                <td> 
+                    <select name="situation" >
+                        <option value="celiba"> Celibataire</option>
+                        <option value="couple"> En couple </option>
+                    </select>
+                </td>
+            </tr>
+            <tr>
+                <td>Adresse</td>
+                <td> 
+                    <input type="text" name="Amodif" value="Mahamasina">
+                </td>
+            </tr>
+            <tr>
+                <td>N° tel </td>
+                <td> 
+                    <input type="text" name="Telmodif" value="0321235469">
+                </td>
+            </tr>
+            <tr>
+                <td>CIN </td>
+                <td> 
+                    <input type="text" name="cmodif" value="52525252525">
+                </td>
+            </tr>
+            
+        </table>
+        <form action="">
+            <table class="modif">
+                <tr>
+                    <td>Pseudo </td>
+                    <td> 
+                        <input type="text" name="Nmodif" value="Fitia1">
+                    </td>
+                </tr>
+                <tr>
+                    <td>Status </td>
+                    <td> 
+                        <select name="status">
+                            <option value="Y">Y</option>
+                        </select>
+                    </td>
+                </tr>
+                <tr>
+                    <td>Fonction </td>
+                    <td> 
+                        <select name="Fonction">
+                            <option value="agent">agent</option>
+                        </select>
+                    </td>
+                </tr>
+                <tr>
+                    <td>Mode de payement </td>
+                    <td> 
+                        <select name="paye">
+                            <option value="fiche">par fiche</option>
+                        </select>
+                    </td>
+                </tr>
+                <tr>
+                    <td>Type Horaire</td>
+                    <td> 
+                        <select name="horaire">
+                            <option value="plein">plein</option>
+                        </select>
+                    </td>
+                </tr>
+                <tr>
+                    <td>Equipe </td>
+                    <td> 
+                        <select name="Equipe">
+                            <option value="Q4">Q4</option>
+                        </select>
+                    </td>
+                </tr>
+    
+            </table>
             <div>
-               <h3>
-                Nombres total des commandes
-                <br>
-                <strong style="font-size:50px;">  140 </strong>
-               </h3>
+                <input type="submit" value="ENREGISTRER">
             </div>
-            <div> 
-                <h3>
-                    Nombres des fichier restants
-                    <br>
-                   <strong style="font-size:50px;">  55 </strong>
-                   </h3>
-                
-            </div>
-        </section>
+        </form>
+       
     </div>
     
 </body>
