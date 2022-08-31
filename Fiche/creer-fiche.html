@@ -1,0 +1,248 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <link rel="stylesheet" href="creer-fiche.css">
+    
+    <title>Profil-modification</title>
+</head>
+<body>
+    <div id="menuhaut">
+        <img src="../assets/menu.png" alt="menu">
+        <div>
+            <img src="../assets/notification.png" alt="notification">
+            <img src="../assets/notes.png" alt="notes">
+            <img src="../assets/utilisateur.png" alt="utilisateur">
+        </div>
+    
+    </div>
+    <div id="menugauche">
+        <img src="../assets/profil.png" alt="profil"><h2 > Mahery2 </h2>
+        <br>
+        <ul id="listes"> 
+            <li> <img src="../assets/stat.png" alt="stat"><a href="/">Statistiques </a></li>
+            <li> <img src="../assets/fiche.png" alt="fiche"> <a href="/">Fiches </a></li>
+            <li><img src="../assets/stat.png" alt="stat"><a href="/">Actualisation</a></li>
+            <li><img src="../assets/recherche.png" alt="recherche"><a href="/">Verifier doublons</a></li> 
+        </ul>
+        
+    </div>
+    <div id="title"> 
+        <h1>CREER FICHE</h1>
+        
+    </div>
+    <form action="">
+        <table class="modif" >
+            <tr>
+                <td>Semaine </td>
+                <td> 
+                    <select name="semaine" >
+                        <option value="28/08/2022-09/09/2022">28/08/2022 jusqu'aux 09/09/2022</option>
+                    </select>
+                </td>
+            </tr>
+            <tr>
+                <td>Date fiche </td>
+                <td> 
+                    <input type="text" name="datfiche" placeholder="28/08/2022:14:30">
+                </td>
+            </tr>
+            <tr>
+                <td>N° Dep </td>
+                <td> 
+                    <select name="dep" >
+                        <option value="D1"> 50</option>
+                        <option value="D2">49</option>
+                    </select>
+                </td>
+            </tr>
+            <tr>
+                <td>Activité </td>
+                <td> 
+                  <input type="text" name="activite" placeholder="Activité">
+                </td>
+            </tr>
+            <tr>
+                <td>Enseigne </td>
+                <td> 
+                    <input type="text" name="Enseigne" placeholder="ENSEIGNE">
+                </td>
+            </tr>
+            <tr>
+                <td>Nom</td>
+                <td> 
+                    <input type="text" name="Nomfiche" placeholder="NOM">
+                </td>
+            </tr>
+            <tr>
+                <td>Prenom</td>
+                <td> 
+                    <input type="text" name="Prenomfiche" placeholder="PRENOM">
+                </td>
+            </tr>
+            <tr>
+                <td>Sexe </td>
+                <td> 
+                    <select name="sexefiche">
+                        <option value="Male">Homme</option>
+                        <option value="Femelle">Femme</option>
+                    </select>
+                </td>
+            </tr>
+            <tr>
+                <td>tel fixe </td>
+                <td> 
+                    <input type="text" name="numfixe" placeholder="Num fixe">
+                </td>
+            </tr>
+            <tr>
+                <td>tel mobile </td>
+                <td> 
+                    <input type="text" name="numport" placeholder="Numportable">
+                </td>
+            </tr>
+            <tr>
+                <td>Email </td>
+                <td> 
+                    <input type="text" name="Email" placeholder="Email">
+                </td>
+            </tr>
+            <tr>
+                <td>Adresse </td>
+                <td> 
+                    <input type="text" name="Adressefiche" placeholder="Adresse">
+                </td>
+            </tr>
+            <tr>
+                <td>Cp </td>
+                <td> 
+                    <input type="text" name="cp" placeholder="code postale">
+                </td>
+            </tr>
+            <tr>
+                <td>ville </td>
+                <td> 
+                    <input type="text" name="ville" placeholder="ville">
+                </td>
+            </tr>
+            
+        </table>
+        
+            <table class="modif">
+                <tr>
+                    <td>Fond/Mur </td>
+                    <td> 
+                        <input type="text" name="fm" placeholder="Fonds">
+                    </td>
+                </tr>
+                <tr>
+                    <td>Prix de vente </td>
+                    <td> 
+                        <input type="text" name="pr" placeholder="prix de vente">
+                    </td>
+                </tr>
+                <tr>
+                    <td>Jour de fermeture </td>
+                    <td> 
+                        <select name="jourf">
+                            <option value="lundi">lundi</option>
+                            <option value="mardi">mardi</option>
+                            <option value="mercredi">mercredi</option>
+                            <option value="jeudi">jeudi</option>
+                            <option value="samedi">samedi</option>
+                            <option value="dimanche">dimanche</option>
+                        </select>
+                    </td>
+                </tr>
+                <tr>
+                    <td>affaire tenue depuis</td>
+                    <td> 
+                        <select name="paye">
+                            <option value="fiche">par fiche</option>
+                        </select>
+                    </td>
+                </tr>
+                <tr>
+                    <td>Raison de la vente </td>
+                    <td> 
+                       <select name="raison" >
+                           <option value="coucou">coucou</option>
+                           <option value="kaka">kaka</option>
+                       </select>
+                    </td>
+                </tr>
+                <tr>
+                    <td>Status </td>
+                    <td> 
+                        <select name="status">
+                            <option value="SGG">SGG</option>
+                            <option value="KLLL">KLL</option>
+                            <option value="IKUY">UKIO</option>
+                            <option value="LOOO">KOOO</option>
+                        </select>
+                    </td>
+                </tr>
+                <tr>
+                    <td>Nombre salarié </td>
+                    <td> 
+                        <input type="text" name="salairie" placeholder="nombre salarie">
+                    </td>
+                </tr>
+                <tr>
+                    <td>Chiffre d'affaire </td>
+                    <td> 
+                        <input type="text" name="chiffed" placeholder="chiffre d 'affaire">
+                    </td>
+                </tr>
+                <tr>
+                    <td>Disponibilité </td>
+                    <td> 
+                        <select name="disp">
+                            <option value="Toujours">toujours</option>
+                            <option value="Matin">%atin</option>
+                            <option value="Apres-midi">Apres-midi</option>
+                        </select>
+                    </td>
+                </tr>
+                <tr>
+                    <td>Observation </td>
+                    <td> 
+                       <input type="textarea" name="obs">
+                    </td>
+                </tr>
+                <tr>
+                    <td>Demarche déja effectué </td>
+                    <td> 
+                       <input type="radio" name="Dem" > <label >OUI</label>
+                       <input type="radio" name="Dem" > <label>NON</label>
+                    
+                    </td>
+                </tr>
+                <tr>
+                    <td>Vendeur depuis </td>
+                    <td> 
+                        <input type="text" name="VD" placeholder="vendeure depuis">
+                    </td>
+                </tr>
+                <tr>
+                    <td>Agent </td>
+                    <td> 
+                        <select name="agent">
+                            <option value="fitia">fitia1</option>
+                        </select>
+                    </td>
+                </tr>
+    
+            </table>
+            <div>
+                <input type="submit" value="ENREGISTRER">
+            </div>
+        </form>
+       
+    
+    
+</body>
+</html>
