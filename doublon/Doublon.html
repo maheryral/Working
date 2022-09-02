@@ -11,7 +11,7 @@
 </head>
 <body>
     <div id="menuhaut">
-        <img src="assets/menu.png" alt="menu">
+        <img src="../assets/menu.png" alt="menu">
         <div>
             <img src="../assets/notification.png" alt="notification">
             <img src="../assets/notes.png" alt="notes">
@@ -20,13 +20,23 @@
     
     </div>
     <div id="menugauche">
-        <img src="../assets/profil.png" alt="profil"><h2 > Mahery2 </h2>
+        <div style="background-color:rgb(47, 35, 35); width: 245px; height: 50px ; position: fixed; margin-top: 4px;">
+            <img src="../assets/profil.png" alt="profil"><h2 > Mahery2 </h2>
+        </div>
         <br>
         <ul id="listes"> 
-            <li> <img src="../assets/stat.png" alt="stat"><a href="/">Statistiques </a></li>
-            <li> <img src="../assets/fiche.png" alt="fiche"> <a href="/">Fiches </a></li>
-            <li><img src="../assets/stat.png" alt="stat"><a href="/">Actualisation</a></li>
-            <li><img src="../assets/recherche.png" alt="recherche"><a href="/">Verifier doublons</a></li> 
+            <li > <img src="../assets/stat.png" alt="stat"><a href="../statistiques.html">Statistiques </a></li>
+            <li id="fichem"> <img src="../assets/fiche.png" alt="fiche" > <a href="/">Fiches </a></li>
+            <li class="sousfiche" style="width:215px; left:23px; display:none;"> <img src="../assets/stat.png" alt="stat"><a href="../fiche/creer-fiche.html">Creer fiche </a></li>
+            <li class="sousfiche" style="width:215px; left:23px; display:none;"> <img src="../assets/stat.png" alt="stat"><a href="../fiche/En-attente.html">En attente </a></li>
+            <li class="sousfiche" style="width:215px; left:23px; display:none;"> <img src="../assets/stat.png" alt="stat"><a href="../fiche/Valide.html">Validée </a></li>
+            <li class="sousfiche" style="width:215px; left:23px; display:none; "> <img src="../assets/stat.png" alt="stat"><a href="../fiche/Devalide.html">Dévalidée </a></li>
+            <li class="sousfiche" style="width:215px; left:23px; display:none; "> <img src="../assets/stat.png" alt="stat"><a href="../fiche/A-verifie.html">A vérifier </a></li>
+            <li class="sousfiche" style="width:215px; left:23px; display:none;"> <img src="../assets/stat.png" alt="stat"><a href="../fiche/semaine.html">Semaine </a></li>
+            <li class="sousfiche" style="width:215px; left:23px; display:none;"> <img src="../assets/stat.png" alt="stat"><a href="../fiche/conge.html">En congé </a></li>
+            <li class="sousfiche" style="width:215px; left:23px; display:none;"> <img src="../assets/stat.png" alt="stat"><a href="../fiche/retourne.html">Retournée </a></li>
+            <li><img src="../assets/stat.png" alt="stat"><a href="../Actualisation/Actualisation.html">Actualisation</a></li>
+            <li style=" background-color: rgba(14, 1, 38, 0.24)"><img src="../assets/recherche.png" alt="recherche"><a href="../doublon/Doublon.html">Verifier doublons</a></li> 
         </ul>
         
     </div>
@@ -38,6 +48,6 @@
         <input type="submit" value="VERIFIER">
 
     </div>
-    
+    <script src="../nav.js"></script>
 </body>
 </html>

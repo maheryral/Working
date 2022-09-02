@@ -2,12 +2,19 @@ body{
     background-color: rgb(30, 28, 40);
 }
 
-
+::-webkit-scrollbar-thumb {
+    background-color: rgba(255, 255, 255, 0.433);
+    border-radius: 10px;
+  }
+ ::-webkit-scrollbar{
+    width: 5px;
+ }
 #menugauche{
+    overflow: scroll;
     width: 250px;
     height: 730px;
     background-color: rgb(47, 35, 35);
-    position: absolute;
+    position: fixed;
     top: 0px;
     left: 0px;
     box-shadow: 6px 6px rgba(255, 255, 255, 0.096);
@@ -25,12 +32,14 @@ body{
     top: 9px ;
 }
 #menugauche ul{
+    z-index: -1;
     position: absolute;
     top: 60px;
     left: -37px;
     list-style-type: none;
 }
 #menugauche ul li{
+    position: relative;
    width: 240px;
    height: 50px;
    background-color: rgba(253, 211, 159, 0.153);
